@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <link rel="stylesheet" href="saved.css">
+    <style>
+        .profile-tab-content:not(#saved-images) {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="profile-tabs">
+            <div class="profile-tab">
+                <a href="#profile">Profile</a>
+            </div>
+            <div class="profile-tab active">
+                <a href="#saved-images">Saved Images</a>
+            </div>
+        </div>
+        <div class="profile-content">
+            <div id="profile" class="profile-tab-content">
+                <!-- Profile content here -->
+            </div>
+            <div id="saved-images" class="profile-tab-content active">
+                <h2 class="section-title">Saved Images</h2>
+                <div class="saved-images">
+                    <img src="./image/post1.jpg" alt="Saved Image">
+                    <img src="./image/post_3.jpg" alt="Saved Image">
+                    <img src="./image/post_5.jpg" alt="Saved Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
